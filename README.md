@@ -1,6 +1,6 @@
 # Docker Compose Boilerplate
 Bu Repo Docker-Compose ile projelere altık olması amacıyla oluşturulmuştur. 
-- Yapı içersinde app ve db olmak 2 servisten oluşur.
+- Yapı içersinde app ve db olmak üzere 2 servisten oluşur.
 - db Postgresql olarak ayarlanmış olup docker-compose.yml içersinden konfügüre edilebilir. 
 - app ubuntu:16.04 üzerinde oluşturulmuştur. Genel kullanılan paketler kurulmuştur. Buna ek olarak coğrafi veri işleme işlemlerinde servisin kullanılabilmesi için gdal kütüphanesi eklenmiştir.
 - Django projesine altlık olması amacıyla oluşturulmuştur ve default.env dosyasında django parametreleri default olarak girilmiştir.
