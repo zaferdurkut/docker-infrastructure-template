@@ -27,7 +27,10 @@ RUN apt-get update \
    ssh \
    && apt-get autoremove \
    && apt-get clean
-
+   
+RUN locale-gen en_US.UTF-8
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US:en
 
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt
